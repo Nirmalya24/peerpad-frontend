@@ -1,5 +1,6 @@
 import Emoji from "./components/Emoji";
 import Navbar from "./components/NavBar";
+import logo from "./peerpad-logo.png";
 
 function LandingPage() {
   return (
@@ -9,7 +10,7 @@ function LandingPage() {
         <header className="w-full absolute left-0 top-0 p-6 lg:p-32">
           <div className="flex justify-between">
             <div>
-              <h1 className="text-3xl font-bold">{"{Logo}"}</h1>
+              <h1 className="text-3xl font-bold">{"{logo}"}</h1>
             </div>
             <Navbar />
           </div>
