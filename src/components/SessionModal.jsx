@@ -36,12 +36,12 @@ export default function Modal(props) {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                  <p className="my-4 leading-relaxed">
+                  <div className="my-4 leading-relaxed">
                     <InputText placeholder="Enter your name" />
                     {props.name === "Join Session" && (
                       <InputText placeholder="Enter session ID" />
                     )}
-                  </p>
+                  </div>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
