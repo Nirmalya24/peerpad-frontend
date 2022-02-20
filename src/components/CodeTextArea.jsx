@@ -12,6 +12,7 @@ export default function CodeTextArea(props) {
         autoClosingBrackets: true,
         autoIndent: true,
         autoComplete: true,
+        wordWrap: "on",
       }}
     />
   );
